@@ -13,5 +13,8 @@ That is the entire model. It is quite simple, but if the training text is good a
 How to Run this Program </h1>
 
 
+The TextGenerator program makes use of the State and MarkovModel classes.This program takes three command-line arguments in the following order: K, M, fileName. It constructs a MarkovModel and uses the named file to train the model, then reads the first K characters of the file into string start and calls the model's generateText method. Finally, it prints the string the generateText( ) method returns.
+
+
 
 
