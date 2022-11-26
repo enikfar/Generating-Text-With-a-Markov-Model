@@ -1,4 +1,5 @@
-# Generating-Text-With-a-Markov-Model
+<h1 align= "center">
+    Generating-Text-With-a-Markov-Model < /h1>
 A system that evolves over time is said to have the Markov Property if its future state is determined by its current state without regard to its history. Such systems are sometimes called "memoryless". This property is popular with modelers because it means that fewer things need to be taken into account in a model.
 
 In this project I implemented a Markov model for generating text. The model includes an integer parameter K, which is typically between 2 and 10 or so. At each step we look at the K most recent charcters we have generated - that is our current "state". We use this state to choose the next character. We drop the oldest of our K characters, add the new one, and that gives us a new state that generates another new character, and the process continues.
