@@ -9,7 +9,7 @@ That is the entire model. It is quite simple, but if the training text is good a
 
 
 
-<h1 align="center"> 
+<h1 align="How to Run this program"> 
 Snake </h1>
 
 
