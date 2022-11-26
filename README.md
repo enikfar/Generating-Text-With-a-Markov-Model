@@ -9,5 +9,11 @@ That is the entire model. It is quite simple, but if the training text is good a
 
 
 
+< h1 aligh="center">
+"How to Run this program 
+</h1>
+
+
+
 
 
